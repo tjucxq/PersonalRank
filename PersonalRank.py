@@ -7,3 +7,4 @@ def PersonalRank(G, alpha, root, max_step):
     #start iteration
     for k in range(max_step):
         tmp = {x:0 for x in G.keys()}
+
